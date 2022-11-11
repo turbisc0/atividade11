@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuscoLar</title>
+    <!-- Google Fonts - Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,300&display=swap"
+        rel="stylesheet">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Project CSS -->
+    <link rel="stylesheet" href="Css/style.css">
+    <!-- JavaScript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+        </script>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container py-3">
+            <a href="" class="navbar-brand">
+                <img src="Img/Icon.png" alt="">
+                <span>Buscolar</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+                aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Localidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contatos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider -->
+    <div class="container" id="slider-container">
+        <div class="carousel slide" id="slider" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button 
+                type="button" 
+                class="active" 
+                data-bs-target="#slider" 
+                data-bs-slide-to="0" 
+                aria-current="true" 
+                aria-label="Slide 1">
+                </button>
+                <button 
+                type="button" 
+                data-bs-target="#slider" 
+                data-bs-slide-to="1"
+                aria-label="Slide 2">
+                </button>
+                <button 
+                type="button"  
+                data-bs-target="#slider" 
+                data-bs-slide-to="2" 
+                aria-label="Slide 3">
+                </button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Img/Casa01.jpg" alt="test1" class="d-block w-100"/>
+                    <div class="carousel-caption">
+                    <h5>Casas Planejadas</h5>
+                    <a href="#" class="btn btn-dark">Ver Projetos</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Img/Casa02.jpg" alt="test2" class="d-block w-100"/>
+                    <div class="carousel-caption">
+                        <h5>Casas Planejadas</h5>
+                        <a href="#" class="btn btn-dark">Ver Projetos</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Img/Casa03.jpg" alt="test3" class="d-block w-100"/>
+                    <div class="carousel-caption">
+                        <h5>Casas Planejadas</h5>
+                        <a href="#" class="btn btn-dark">Ver Projetos</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                <i class="bi bi-chevron-compact-left"></i>
+                <span class="visually-hidden"> Previous </span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                <i class="bi bi-chevron-compact-right"></i>
+                <span class="visually-hidden"> Next </span>
+            </button>
+        </div>
+        <br>
+        
+    </div>
+
+    <!-- Mini Banners-->
+    <h3>Nossas Propriedades</h3> 
+        <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5>Bel-Air</h5>
+                            <img src="Img/Casa04.jpg" alt="" class="card-img">
+                            <br><br>
+                            <a href="#" class="btn btn-dark">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5>Beverly Hills</h5>
+                            <img src="Img/Casa05.jpg" alt="" class="card-img">
+                            <br><br>
+                            <a href="#" class="btn btn-dark">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5>Ponta Negra</h5>
+                            <img src="Img/Casa06.jpg" alt="" class="card-img">
+                            <br><br>
+                            <a href="#" class="btn btn-dark">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5>Rio Rey</h5>
+                            <img src="Img/Casa07.jpg" alt="" class="card-img">
+                            <br><br>
+                            <a href="#" class="btn btn-dark">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5>Compensa</h5>
+                            <img src="Img/Casa08.jpg" alt="" class="card-img">
+                            <br><br>
+                            <a href="#" class="btn btn-dark">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5>Laranjeiras</h5>
+                            <img src="Img/Casa09.jpg" alt="" class="card-img">
+                            <br><br>
+                            <a href="#" class="btn btn-dark">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Info -->
+    <div class="container" id="info-container">
+        <div class="col-12">
+            <h2 class="title primary-color">Detalhes Importantes</h2>
+            <p class="subtitle secondary-color">Saiba mais sobre nossa incrível empresa</p>
+        </div>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-md-5" id="info-banner">
+                    <img src="Img/Info01.jpg" alt="Informações" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="title primary-color">Nossos Dados</h2>
+                            <p class="subtitle secondary-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore consectetur iste iure aut nemo debitis veniam provident totam. Dolore laborum impedit labore? Quas libero labore dignissimos. Molestias quas illo earum.</p>
+                        </div>
+                        <div class="col-12" id="info-numbers">
+                            <div class="row">
+                                <div class="col-4">
+                                    <h3 class="primary-color">24</h3>
+                                    <p class="secondary-color">Anos operando no mercado</p>
+                                </div>
+                                <div class="col-4">
+                                    <h3 class="primary-color">47</h3>
+                                    <p class="secondary-color">Filiais fora do país</p>
+                                </div>
+                                <div class="col-4">
+                                    <h3 class="primary-color">+700 Mil</h3>
+                                    <p class="secondary-color">Cliente pelo Brasil</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <a href="#" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark-color" id="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Top -->
+                <div class="col-12" id="footer-top">
+                    <div class="row justify-content-between">
+                        <div class="col-4"><h2>Buscolar</h2></div>
+                        <div class="col-4" id="social-icons">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-linkedin"></i>
+                            <i class="bi bi-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Details -->
+                <div class="col-12" id="footer-details"></div>
+                <!-- Footer Bottom-->
+                <div class="col-12" id="footer-bottom"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
