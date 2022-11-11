@@ -1,0 +1,176 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-primary-color {
+    background-color: white;
+}
+
+.bg-secondary-color {
+    background-color: aliceblue;
+}
+
+.bg-dark-color {
+    background-color: #050505;
+}
+
+.primary-color {
+    color: #000000;
+}
+
+.secondaty-color {
+    color: #454545;
+}
+
+/* NAVBAR */
+
+#navbar {
+    border-bottom: 1px solid black;
+}
+
+#navbar a:hover {
+    color: #454545;
+}
+
+#navbar a.active {
+    border-bottom: 1px solid black;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar-items .nav-item {
+    margin: 0 1em;
+}
+
+/* Slider */
+#slider {
+    margin-top: 8em;
+    margin-bottom: 1em;
+}
+
+#slider .carousel-caption {
+    bottom: 3em;
+}
+
+#slider .carousel-caption h5 {
+    font-size: 2.5em;
+    text-shadow: #000000 2px 2px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+#slider .btn {
+    padding: 0.3 0.8em;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: rgb(150, 150, 150);
+    opacity: 0.8;
+}
+
+.carousel-indicators .active {
+    background-color: #ffffff;
+}
+
+@media(min-width: 768px) {
+    #slider .carousel-caption {
+        bottom: 15em;
+    }
+
+    #slider .carousel-caption h5 {
+        font-size: 4em;
+        text-shadow: #000000 2px 3px;
+    }
+
+    #slider .btn {
+        padding: 0.6 1.6em;
+        font-size: 1.2em;
+    }
+
+    .carousel-indicators {
+        bottom: 7em;
+    }
+}
+
+/* Mini Banners */
+
+h3{
+    padding-left: 15px;
+}
+h5 {
+    margin-top: -1em;
+}
+
+#mini-banners {
+    margin-bottom: 4em;
+}
+
+#mini-banners .card {
+    margin-top: 2em;
+    padding: 2em 0.3em;
+}
+.card-img{
+    object-fit: cover;
+}
+/* Info */
+.img-fluid{
+    height: 400px;
+    width: 100%;
+}
+#info-content{
+    margin-bottom: 4em;
+    padding: 4em 1em;
+}
+#info-numbers{
+    margin: 1.5em 0;
+}
+#info-banner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+#info-numbers h3{
+    font-size: 3em;
+}
+@media (min-width: 768px){
+    #info-content{
+        padding: 3.5em;
+    }
+}
+/* Footer Top */
+#footer{
+    padding: 3em 2em;
+}
+#footer-top{
+    margin-bottom: 2em;
+}
+#footer-top, #footer-top i{
+    color: #ffffff;
+}
+#social-icons{
+    text-align: right;
+}
